@@ -5,5 +5,15 @@
 <h1>Hello, world!</h1>
 
 Welcome to your new app!
-
+@{ 
+    for (int i = 0; i < 12; i++) { 
+        <div class="row">
+   @for (int j = 0; j < 12; j++) {
+       Cell newCell = new Cell(i, j);
+       Cells.Add(newCell);
+            <Cell rowIndex=i colIndex =j />
+            }
+        </div>
+    }
+}
 <SurveyPrompt Title="How is Blazor working for you?" />
