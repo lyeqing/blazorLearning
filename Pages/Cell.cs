@@ -7,13 +7,13 @@ namespace WebProducer.Pages
 {
     public partial class Cell
     {
-        public int RowIndex;
-        public int ColIndex;
+        //public int RowIndex;
+        //public int ColIndex;
 
-        public Cell(int rowIndex, int colIndex)
-        {
-            RowIndex = rowIndex;
-            ColIndex = colIndex;
-        }
+        //public Cell(int rowIndex, int colIndex)
+        //{
+        //    RowIndex = rowIndex;
+        //    ColIndex = colIndex;
+        //}
     }
 }

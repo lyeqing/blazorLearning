@@ -9,9 +9,9 @@ Welcome to your new app!
     for (int i = 0; i < 12; i++) { 
         <div class="row">
    @for (int j = 0; j < 12; j++) {
-       Cell newCell = new Cell(i, j);
-       Cells.Add(newCell);
-            <Cell rowIndex=i colIndex =j />
+       Tuple<int, int> newTuple = new Tuple<int, int>(i, j);
+       Tuples.Add(newTuple);
+            <Cell @ref="CellComponents[newTuple]" />
             }
         </div>
     }
